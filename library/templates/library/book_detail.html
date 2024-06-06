@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ book.title }}</title>
+</head>
+<body>
+    <h1>{{ book.title }}</h1>
+    <h2>by {{ book.author.name }}</h2>
+    <p>{{ book.description }}</p>
+    <p>Published on: {{ book.publication_date }}</p>
+    <a href="{{ book.ebook_file.url }}">Download eBook</a>
+</body>
+</html>
